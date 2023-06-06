@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Toko_Handphone</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Harga">4.000.000</string>
+    <string name="Harga1">Rp.9.750.000</string>
+    <string name="Harga2">Rp.2.995.000</string>
+    <string name="Harga3">Rp.2.815.000</string>
+    <string name="Harga4">Rp.1.999.000</string>
+    <string name="Harga5">Rp.2.150.000</string>
+    <string name="Harga6">Rp.1.885.000</string>
+    <string name="Harga8">Rp.8.905.000</string>
+    <string name="Harga9">Rp.6.999.000</string>
+    <string name="Harga10">Rp.4.999.000</string>
+    <string name="Harga11">Rp.5.000.999</string>
+    <string name="Harga7">harga</string>
+
+    <string name="Nama">nama</string>
+    <string name="nama1">Realme GT 2</string>
+    <string name="nama2">Realme 5pro</string>
+    <string name="nama3">Realme 8</string>
+    <string name="nama4">Realme 7</string>
+    <string name="nama5">Realme C35</string>
+    <string name="nama6">Realme 9Pro</string>
+    <string name="nama7">Realme GT Neo</string>
+    <string name="nama8">Realme GT Master Edition</string>
+    <string name="nama9">Realme Narzo 50a</string>
+    <string name="nama10">Realme X50 Pro 5G</string>
+
+    <string name="Dev">A developer is an individual that builds and create software and applications. He or she writes, debugs and executes the source code of a software application. A developer is also known as a software developer, computer programmer, programmer, software coder or software engineer.</string>
+
+</resources>

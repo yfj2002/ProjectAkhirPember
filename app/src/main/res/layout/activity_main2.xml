@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrudActivity"
+    android:background="@color/Amber">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/baseline_shopping_bag_24"
+        app:layout_constraintBottom_toTopOf="@+id/tvNama"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/editButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Edit"
+        app:backgroundTint="@color/black"
+        app:cornerRadius="40dp"
+        app:icon="@drawable/baseline_edit_24"
+        app:iconGravity="textStart"
+        app:iconTint="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/tvumurValues"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/tvumurValues"
+        app:layout_constraintTop_toBottomOf="@+id/tvumurValues"
+        app:rippleColor="@color/teal_200" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvDateValue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="05/03/2003"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDate"
+        app:layout_constraintEnd_toEndOf="@+id/tvprodiValues"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/tvprodiValues"
+        app:layout_constraintTop_toTopOf="@+id/tvDate"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvKelasValue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="merk"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/tvkelas"
+        app:layout_constraintEnd_toEndOf="@+id/tvDateValue"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/tvDateValue"
+        app:layout_constraintTop_toTopOf="@+id/tvkelas" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Pengiriman: "
+        android:layout_marginTop="24dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/tvprodi"
+        app:layout_constraintTop_toBottomOf="@+id/tvprodi" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvkelas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Merk : "
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/tvDate"
+        app:layout_constraintTop_toBottomOf="@+id/tvDate" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvNamaValue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="-30dp"
+        android:text="Ahmad Jihaduddin Salim"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/tvNama"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/tvNama" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvNama"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-50dp"
+        android:layout_marginTop="250dp"
+        android:text="Pembeli : "
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvumur"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ket : "
+        android:layout_marginTop="24dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/tvkelas"
+        app:layout_constraintTop_toBottomOf="@+id/tvkelas" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvumurValues"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Pembelian"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/tvumur"
+        app:layout_constraintEnd_toEndOf="@+id/tvKelasValue"
+        app:layout_constraintStart_toStartOf="@+id/tvKelasValue"
+        app:layout_constraintTop_toTopOf="@+id/tvumur" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvprodiValues"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Verified"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/tvprodi"
+        app:layout_constraintEnd_toEndOf="@+id/tvNamaValue"
+        app:layout_constraintStart_toStartOf="@+id/tvNamaValue"
+        app:layout_constraintTop_toTopOf="@+id/tvprodi" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvprodi"
+        android:layout_width="0dp"
+        android:layout_marginTop="24dp"
+        android:layout_height="wrap_content"
+        android:text="verifikasi : "
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/tvNama"
+        app:layout_constraintTop_toBottomOf="@+id/tvNama" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
